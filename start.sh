@@ -1,1 +1,0 @@
-MYSQL_ADDON_HOST=brwt9ufivbuqwrg4cmgz-mysql.services.clever-cloud.com MYSQL_ADDON_DB=brwt9ufivbuqwrg4cmgz MYSQL_ADDON_USER=uefa1o97aucbinoz MYSQL_ADDON_PORT=3306 MYSQL_ADDON_PASSWORD=SaXt2cWCodXslkI8Hiv4 MYSQL_ADDON_URI=mysql://uefa1o97aucbinoz:SaXt2cWCodXslkI8Hiv4@brwt9ufivbuqwrg4cmgz-mysql.services.clever-cloud.com:3306/brwt9ufivbuqwrg4cmgz node index.js
