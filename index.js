@@ -17,7 +17,7 @@ app.get('/data', (req, res) => {
         let db = client.db(dbName)
         db.collection('raw_data').find({}).toArray(function(err, result) {
             if (err) throw err;
-            console.log(result)
+            // console.log(result)
             res.json(result)
             client.close()
           })
@@ -29,12 +29,13 @@ app.post('/data', (req, res) => {
     let raw_data = req.body
     client.connect((err, client) => {
         if (err) throw err
-        console.log("Connected correctly to server")
+        // console.log("Connected correctly to server")
         const db = client.db(dbName)
 
         db.collection('raw_data').insertMany([raw_data], (err, results) => {
             if (err) throw err
-            console.log(results)
+            // console.log(results)
+            res.end(0)
             client.close()
         })
     })
